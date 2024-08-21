@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#results{
+    margin: auto;
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 40px;
+}
+
+
+#results div{
+    padding: 5px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.movie {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.movie img {
+    display: flex;
+    margin: auto;
+    width: 160px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.movie h2 {
+    
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.movie p {
+    margin: 5px 0 0;
+    color: #555;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+#pagination-controls {
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 5px;
+}
